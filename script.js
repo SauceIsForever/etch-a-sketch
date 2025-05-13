@@ -1,8 +1,3 @@
-//var div = document.createElement("div");
-//div.style.width = "100px";
-//div.style.height = "100px";
-//document.getElementById("containerOne").appendChild(div);
-
 const container = document.querySelector(".container");
 
 function myGrid(){
@@ -10,7 +5,14 @@ function myGrid(){
         const square = document.createElement("div");
         square.className = "square";
         container.appendChild(square);
+        square.addEventListener('mouseover',  e => e.target.classList.add('newColor'))
     }
 }
 
-myGrid();
+function main(){
+  myGrid();
+  //Add to have a pop-up when button is click to ask for grid size
+  //Potentially add event listener
+}
+
+main();

@@ -5,6 +5,11 @@
     flex-wrap: wrap;
 }
 
+.buttonContainer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 .square {
     width: 6.25%;     /* 100% / 16 = 6.25% */
     aspect-ratio: 1 / 1;  /* keeps it square without needing height */
@@ -12,6 +17,9 @@
     box-sizing: border-box;
 }
 
+.newColor {
+  background-color: blue;
+}
 
 
 
